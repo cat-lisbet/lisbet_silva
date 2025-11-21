@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="arriba">
+            <img src="img/cat.png" alt="Logo" class="logo">
+            <div>
+                <h1 class="titulo">L&S</h1>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Aficiones</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mi" class="mi">
+            <div class="texto">
+                <h2>Sobre mi</h2>
+                <p>
+                    Soy Lisbet, estudiante de Desarrollo de Aplicaciones Web.
+                    Me interesa la tecnología para crear cosas sencillas.
+                </p>
+                <p>
+                    Intento fijarme en los detalles y ver cómo se sienten las personas
+                    para que les guste lo máximo posible.
+                </p>
+            </div>
+
+            <div class="personal">
+                <img src="img/personal.jpg" alt="Foto personal de Lisbet">
+            </div>
+        </section>
+
+        <section id="proyectos" class="proyectos">
+            <h2>Aficiones</h2>
+
+            <div class="galeria">
+                <div class="tarjeta">
+                    <img src="img/logotipo.png" alt="Icono">
+                    <h3>Programación</h3>
+                    <p>Me gusta ver cuando el código funciona.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/logotipo.png" alt="libros">
+                    <h3>Historias</h3>
+                    <p>
+                        Como nuestros sentimientos se usan en la tecnología.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/logotipo.png" alt="naturaleza">
+                    <h3>Lugares</h3>
+                    <p>
+                        Me gustan los espacios tranquilos y naturales.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>HTML y CSS (aprendiendo)</li>
+                <li>Escuchar y comunicar con claridad</li>
+                <li>Trabajo bien estructurado y cuidando los detalles</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="redes">
+                <p>Redes sociales</p>
+                <a href="#">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 derechos de autor</p>
+    </footer>
+</body>
+</html>
